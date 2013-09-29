@@ -46,3 +46,5 @@ rdio.onPlayStateChange(function(){
 #### .state() => object
 #### .isPaused() => boolean
 #### .isPlaying() => boolean
+#### .isStopped() => boolean
+#### .ready(`callback`)

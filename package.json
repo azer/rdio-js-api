@@ -1,5 +1,5 @@
 {
-  "name": "rdio-api",
+  "name": "rdio-js-api",
   "version": "0.0.0",
   "description": "CommonJS Compliant Rdio JavaScript API",
   "main": "index.js",
@@ -15,7 +15,7 @@
     "api"
   ],
   "repository": {
-    "url": "git@github.com:azer/rdio-api.git",
+    "url": "git@github.com:azer/rdio-js-api.git",
     "type": "git"
   },
   "author": "Azer Koçulu <azer@kodfabrik.com>",

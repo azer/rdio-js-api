@@ -1,9 +1,9 @@
-## rdio-api
+## rdio-js-api
 
-CommonJS Compliant Rdio JavaScript API.
+CommonJS Wrapper for Rdio JavaScript API.
 
 ```js
-rdio = require('rdio-api')('api-key-here', 'auth.html')
+rdio = require('rdio-js-api')('api-key-here', 'auth.html')
 
 rdio.play('a3032151')
 ```
@@ -11,7 +11,7 @@ rdio.play('a3032151')
 ## Install
 
 ```bash
-$ npm install rdio-api
+$ npm install rdio-js-api
 ```
 
 ## API
@@ -34,5 +34,15 @@ rdio.play('a3032151')
 rdio.pause()
 ```
 
+#### .onPlayStateChange(`callback`)
+
+```js
+rdio.onPlayStateChange(function(){
+  rdio.state().playing
+  // => true/false
+})
+```
+
+#### .state() => object
 #### .isPaused() => boolean
 #### .isPlaying() => boolean

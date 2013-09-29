@@ -1,6 +1,6 @@
 {
   "name": "rdio-js-api",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "CommonJS Compliant Rdio JavaScript API",
   "main": "index.js",
   "scripts": {

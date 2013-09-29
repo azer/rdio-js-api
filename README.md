@@ -58,3 +58,5 @@ rdio.request('getObjectFromUrl', { url: url }, function (error, track) {
 #### .isPlaying() => boolean
 #### .isStopped() => boolean
 #### .ready(`callback`)
+
+![](https://i.cloudup.com/Lv6QOy2i87.jpg)

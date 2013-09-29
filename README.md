@@ -31,12 +31,10 @@ rdio.play('artist/Daft_Punk/album/Random_Access_Memories/track/Give_Life_Back_to
 ```
 
 #### .playFromKey(`key`)
-
 #### .pause(`song-key`)
-
-```js
-rdio.pause()
-```
+#### .onPlay(`callback`)
+#### .onPause(`callback`)
+#### .onEnd(`callback`)
 
 #### .onPlayStateChange(`callback`)
 

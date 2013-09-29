@@ -22,10 +22,12 @@ $ npm install rdio-js-api
 rdio = require('rdio-api')('api-key-here', 'path/to/auth.html')
 ```
 
-#### .play(`url`)
+#### .play(`url`, `callback`)
 
 ```js
-rdio.play('artist/Daft_Punk/album/Random_Access_Memories/track/Give_Life_Back_to_Music')
+rdio.play('artist/Daft_Punk/album/Random_Access_Memories/track/Give_Life_Back_to_Music', function () {
+  // playing
+})
 ```
 
 #### .playFromKey(`key`)

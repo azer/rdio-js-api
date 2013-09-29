@@ -5,7 +5,7 @@ CommonJS Wrapper for Rdio JavaScript API.
 ```js
 rdio = require('rdio-js-api')('api-key-here', 'auth.html')
 
-rdio.play('a3032151')
+rdio.play('artist/Daft_Punk/album/Random_Access_Memories/track/Give_Life_Back_to_Music')
 ```
 
 ## Install
@@ -22,11 +22,13 @@ $ npm install rdio-js-api
 rdio = require('rdio-api')('api-key-here', 'path/to/auth.html')
 ```
 
-#### .play(`song-key`)
+#### .play(`url`)
 
 ```js
-rdio.play('a3032151')
+rdio.play('artist/Daft_Punk/album/Random_Access_Memories/track/Give_Life_Back_to_Music')
 ```
+
+#### .playFromKey(`key`)
 
 #### .pause(`song-key`)
 
@@ -40,6 +42,14 @@ rdio.pause()
 rdio.onPlayStateChange(function(){
   rdio.state().playing
   // => true/false
+})
+```
+
+#### request(`method`, `options`, `callback`)
+
+```js
+rdio.request('getObjectFromUrl', { url: url }, function (error, track) {
+  rdio.playFromKey(track.key)
 })
 ```
 

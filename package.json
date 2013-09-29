@@ -1,0 +1,30 @@
+{
+  "name": "rdio-api",
+  "version": "0.0.0",
+  "description": "CommonJS Compliant Rdio JavaScript API",
+  "main": "index.js",
+  "scripts": {
+    "test": "fox -b"
+  },
+  "devDependencies": {
+    "fox": "*"
+  },
+  "keywords": [
+    "rdio",
+    "music",
+    "api"
+  ],
+  "repository": {
+    "url": "git@github.com:azer/rdio-api.git",
+    "type": "git"
+  },
+  "author": "Azer Koçulu <azer@kodfabrik.com>",
+  "license": "BSD",
+  "dependencies": {
+    "new-element": "0.0.1",
+    "new-format": "0.0.1",
+    "load-script": "0.0.2",
+    "iframe": "0.0.2",
+    "pubsub": "0.0.5"
+  }
+}

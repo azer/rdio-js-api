@@ -3,7 +3,7 @@ var init = require('./lib/init'),
 
 module.exports = rdio;
 
-function rdio (id, authPath, callback) {
-  init(id, authPath, callback);
+function rdio (id, authPath) {
+  init(id, authPath);
   return api;
 }

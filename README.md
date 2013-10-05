@@ -58,3 +58,14 @@ rdio.request('getObjectFromUrl', { url: url }, function (error, track) {
 #### .isPlaying() => boolean
 #### .isStopped() => boolean
 #### .ready(`callback`)
+#### .sdk(`callback`)
+
+Loads the original Rdio SDK.
+
+```js
+rdio.sdk(function (error, sdk) {
+  sdk.ready(function () {
+    sdk.play({ source: key })
+  })
+})
+```

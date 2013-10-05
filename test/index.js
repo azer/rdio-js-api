@@ -12,6 +12,14 @@ beforeEach(function () {
   rdio.onPause.subscribers.splice(0, 999);
 });
 
+it('has a reference to original sdk', function(done){
+  rdio.sdk(function (error, sdk) {
+    expect(error).to.not.exist;
+    expect(sdk).to.equal(R);
+    done();
+  });
+});
+
 it('plays and pauses a song', function(done){
   rdio.play('/artist/Tech_N9ne/album/Something_Else_(All_Access_Edition)/track/R.I.P._Ray_(Skit)/');
 

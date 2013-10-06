@@ -23,7 +23,7 @@
   "dependencies": {
     "new-element": "0.0.1",
     "new-format": "0.0.1",
-    "require-sdk": "0.0.0",
+    "require-sdk": "0.0.x",
     "iframe": "0.0.2"
   }
 }

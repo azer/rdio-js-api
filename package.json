@@ -4,7 +4,7 @@
   "description": "CommonJS Compliant Rdio JavaScript API",
   "main": "index.js",
   "scripts": {
-    "test": "fox -b"
+    "test": "fox -b -t 25000"
   },
   "devDependencies": {
     "fox": "*"

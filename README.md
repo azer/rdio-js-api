@@ -69,3 +69,17 @@ rdio.sdk(function (error, sdk) {
   })
 })
 ```
+
+## Testing
+
+Clone the repo first, and make sure you have all dependencies installed:
+
+```bash
+$ npm install
+```
+
+And run tests by calling the `npm test` command:
+
+```bash
+$ npm test
+```

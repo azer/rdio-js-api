@@ -83,3 +83,5 @@ And run tests by calling the `npm test` command:
 ```bash
 $ npm test
 ```
+
+This will start publishing the tests on `:7559`. Visit `localhost:7559` to run the tests in a browser. 
